@@ -1,0 +1,314 @@
+Dataset size: 14
+Dataset is shuffled...
+Dataset is splitted...
+cuda:0
+Tokenizer vocab size: 11
+Model vocab size: 14
+0: <unk>
+1: ▁
+2: U
+3: G
+4: C
+5: A
+6: [CLS]
+7: [SEP]
+8: [UNK]
+9: [PAD]
+10: [MASK]
+Top-level attributes:
+['T_destination', '__annotations__', '__call__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_apply', '_backward_hooks', '_backward_pre_hooks', '_buffers', '_call_impl', '_compiled_call_impl', '_decode_arg', '_encode_arg', '_forward_hooks', '_forward_hooks_always_called', '_forward_hooks_with_kwargs', '_forward_pre_hooks', '_forward_pre_hooks_with_kwargs', '_from_pretrained', '_get_backward_hooks', '_get_backward_pre_hooks', '_get_name', '_hub_mixin_coders', '_hub_mixin_config', '_hub_mixin_config', '_hub_mixin_info', '_hub_mixin_init_parameters', '_hub_mixin_inject_config', '_hub_mixin_jsonable_custom_types', '_hub_mixin_jsonable_default_values', '_is_full_backward_hook', '_is_jsonable', '_keys_to_ignore_on_save', '_load_as_pickle', '_load_as_safetensor', '_load_from_state_dict', '_load_state_dict_post_hooks', '_load_state_dict_pre_hooks', '_maybe_warn_non_full_backward_hook', '_modules', '_named_members', '_non_persistent_buffers_set', '_parameters', '_register_load_state_dict_pre_hook', '_register_state_dict_hook', '_replicate_for_data_parallel', '_save_pretrained', '_save_to_state_dict', '_slow_forward', '_state_dict_hooks', '_state_dict_pre_hooks', '_version', '_wrapped_call_impl', 'add_module', 'apply', 'batch_predict_entities', 'batch_predict_with_embeds', 'bfloat16', 'buffers', 'call_super_init', 'children', 'compile', 'compile_for_training', 'config', 'cpu', 'cuda', 'data_processor', 'decoder', 'device', 'double', 'dump_patches', 'encode_labels', 'eval', 'evaluate', 'extra_repr', 'float', 'forward', 'from_pretrained', 'generate_model_card', 'get_buffer', 'get_extra_state', 'get_parameter', 'get_submodule', 'half', 'ipu', 'load_state_dict', 'model', 'modules', 'mtia', 'named_buffers', 'named_children', 'named_modules', 'named_parameters', 'onnx_model', 'parameters', 'predict', 'predict_entities', 'predict_with_embeds', 'prepare_model_inputs', 'prepare_state_dict', 'prepare_texts', 'push_to_hub', 'register_backward_hook', 'register_buffer', 'register_forward_hook', 'register_forward_pre_hook', 'register_full_backward_hook', 'register_full_backward_pre_hook', 'register_load_state_dict_post_hook', 'register_load_state_dict_pre_hook', 'register_module', 'register_parameter', 'register_state_dict_post_hook', 'register_state_dict_pre_hook', 'requires_grad_', 'resize_token_embeddings', 'run', 'save_pretrained', 'set_extra_state', 'set_sampling_params', 'set_submodule', 'share_memory', 'smart_apply', 'state_dict', 'to', 'to_empty', 'train', 'training', 'type', 'xpu', 'zero_grad']
+
+Submodules:
+
+token_rep_layer
+token_rep_layer.bert_layer
+token_rep_layer.bert_layer.model
+token_rep_layer.bert_layer.model.embeddings
+token_rep_layer.bert_layer.model.embeddings.word_embeddings
+token_rep_layer.bert_layer.model.embeddings.LayerNorm
+token_rep_layer.bert_layer.model.embeddings.dropout
+token_rep_layer.bert_layer.model.encoder
+token_rep_layer.bert_layer.model.encoder.layer
+token_rep_layer.bert_layer.model.encoder.layer.0
+token_rep_layer.bert_layer.model.encoder.layer.0.attention
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.0.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.0.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.0.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.0.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.0.output
+token_rep_layer.bert_layer.model.encoder.layer.0.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.0.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.0.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.1
+token_rep_layer.bert_layer.model.encoder.layer.1.attention
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.1.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.1.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.1.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.1.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.1.output
+token_rep_layer.bert_layer.model.encoder.layer.1.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.1.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.1.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.2
+token_rep_layer.bert_layer.model.encoder.layer.2.attention
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.2.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.2.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.2.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.2.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.2.output
+token_rep_layer.bert_layer.model.encoder.layer.2.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.2.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.2.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.3
+token_rep_layer.bert_layer.model.encoder.layer.3.attention
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.3.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.3.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.3.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.3.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.3.output
+token_rep_layer.bert_layer.model.encoder.layer.3.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.3.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.3.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.4
+token_rep_layer.bert_layer.model.encoder.layer.4.attention
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.4.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.4.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.4.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.4.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.4.output
+token_rep_layer.bert_layer.model.encoder.layer.4.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.4.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.4.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.5
+token_rep_layer.bert_layer.model.encoder.layer.5.attention
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.5.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.5.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.5.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.5.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.5.output
+token_rep_layer.bert_layer.model.encoder.layer.5.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.5.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.5.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.6
+token_rep_layer.bert_layer.model.encoder.layer.6.attention
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.6.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.6.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.6.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.6.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.6.output
+token_rep_layer.bert_layer.model.encoder.layer.6.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.6.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.6.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.7
+token_rep_layer.bert_layer.model.encoder.layer.7.attention
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.7.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.7.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.7.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.7.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.7.output
+token_rep_layer.bert_layer.model.encoder.layer.7.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.7.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.7.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.8
+token_rep_layer.bert_layer.model.encoder.layer.8.attention
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.8.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.8.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.8.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.8.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.8.output
+token_rep_layer.bert_layer.model.encoder.layer.8.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.8.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.8.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.9
+token_rep_layer.bert_layer.model.encoder.layer.9.attention
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.9.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.9.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.9.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.9.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.9.output
+token_rep_layer.bert_layer.model.encoder.layer.9.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.9.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.9.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.10
+token_rep_layer.bert_layer.model.encoder.layer.10.attention
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.10.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.10.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.10.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.10.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.10.output
+token_rep_layer.bert_layer.model.encoder.layer.10.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.10.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.10.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.11
+token_rep_layer.bert_layer.model.encoder.layer.11.attention
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self.in_proj
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self.pos_dropout
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self.pos_proj
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self.pos_q_proj
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.self.dropout
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.output
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.11.attention.output.dropout
+token_rep_layer.bert_layer.model.encoder.layer.11.intermediate
+token_rep_layer.bert_layer.model.encoder.layer.11.intermediate.dense
+token_rep_layer.bert_layer.model.encoder.layer.11.intermediate.intermediate_act_fn
+token_rep_layer.bert_layer.model.encoder.layer.11.output
+token_rep_layer.bert_layer.model.encoder.layer.11.output.dense
+token_rep_layer.bert_layer.model.encoder.layer.11.output.LayerNorm
+token_rep_layer.bert_layer.model.encoder.layer.11.output.dropout
+token_rep_layer.bert_layer.model.encoder.rel_embeddings
+token_rep_layer.projection
+rnn
+rnn.lstm
+span_rep_layer
+span_rep_layer.span_rep_layer
+span_rep_layer.span_rep_layer.project_start
+span_rep_layer.span_rep_layer.project_start.0
+span_rep_layer.span_rep_layer.project_start.1
+span_rep_layer.span_rep_layer.project_start.2
+span_rep_layer.span_rep_layer.project_start.3
+span_rep_layer.span_rep_layer.project_end
+span_rep_layer.span_rep_layer.project_end.0
+span_rep_layer.span_rep_layer.project_end.1
+span_rep_layer.span_rep_layer.project_end.2
+span_rep_layer.span_rep_layer.project_end.3
+span_rep_layer.span_rep_layer.out_project
+span_rep_layer.span_rep_layer.out_project.0
+span_rep_layer.span_rep_layer.out_project.1
+span_rep_layer.span_rep_layer.out_project.2
+span_rep_layer.span_rep_layer.out_project.3
+prompt_rep_layer
+prompt_rep_layer.0
+prompt_rep_layer.1
+prompt_rep_layer.2
+prompt_rep_layer.3
+_hub_mixin_config <class 'dict'>
+training <class 'bool'>
+_parameters <class 'dict'>
+_buffers <class 'dict'>
+_non_persistent_buffers_set <class 'set'>
+_backward_pre_hooks <class 'collections.OrderedDict'>
+_backward_hooks <class 'collections.OrderedDict'>
+_is_full_backward_hook <class 'NoneType'>
+_forward_hooks <class 'collections.OrderedDict'>
+_forward_hooks_with_kwargs <class 'collections.OrderedDict'>
+_forward_hooks_always_called <class 'collections.OrderedDict'>
+_forward_pre_hooks <class 'collections.OrderedDict'>
+_forward_pre_hooks_with_kwargs <class 'collections.OrderedDict'>
+_state_dict_hooks <class 'collections.OrderedDict'>
+_state_dict_pre_hooks <class 'collections.OrderedDict'>
+_load_state_dict_pre_hooks <class 'collections.OrderedDict'>
+_load_state_dict_post_hooks <class 'collections.OrderedDict'>
+_modules <class 'dict'>
+config <class 'gliner.config.GLiNERConfig'>
+data_processor <class 'gliner.data_processing.processor.SpanProcessor'>
+decoder <class 'gliner.decoding.decoder.SpanDecoder'>
+onnx_model <class 'bool'>
+_keys_to_ignore_on_save <class 'NoneType'>
+Traceback (most recent call last):
+  File "/home/ec2-user/gliner/finetune.py", line 71, in <module>
+    embedding_layer = model.token_rep_layer.bert_layer.model.embeddings.word_embeddings
+  File "/home/ec2-user/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1940, in __getattr__
+    raise AttributeError(
+AttributeError: 'GLiNER' object has no attribute 'token_rep_layer'
