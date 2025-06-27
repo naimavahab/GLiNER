@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "bpRNA_CRW_31852",
+    "text": "GCGGAAAUAGCUUAAUGGUAGAGCAUAGCCUUGCCAAGGCUAAGGUUGAGGGUUCAAGUCCCUCCUUCCGCU",
+    "labels": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
